@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    let data = fs::read_to_string("data")
+    let data = fs::read_to_string("../data")
         .expect("Failed to read file");
     
     let mut dial_counter = 50;

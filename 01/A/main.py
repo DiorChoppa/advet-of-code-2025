@@ -1,4 +1,4 @@
-with open ('data', 'r', encoding='utf-8') as data:
+with open ('../data', 'r', encoding='utf-8') as data:
     result = 0
     dial_counter = 50
     for line in data:
